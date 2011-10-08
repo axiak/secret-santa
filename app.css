@@ -70,3 +70,15 @@ footer {
 #outputContainer {
   display: none;
 }
+
+tr, td, th, tbody {
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+
+th, table {
+    border-collapse: collapse;
+    border: 3px solid #ccc;
+}
