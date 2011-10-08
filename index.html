@@ -1,1 +1,31 @@
-test
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secret Santa Generator</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cherry+Cream+Soda" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="app.css" />
+    <style type="text/css">
+      #generate {
+         color: black;
+         border: 1px solid gray;
+         margin: 5px;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.7/underscore-min.js"></script>
+    <script type="text/coffeescript" src="script.coffee"></script>
+  </head>
+  <body>
+    <h1>Secret Santa</h1>
+    <p>
+      This page is used to generate Secret Santa assignments for Mike &amp; family.
+      <br>
+      <input type="button" id="generate" value="Generate assignments!">
+    </p>
+  </body>
+</html>
+

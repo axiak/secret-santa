@@ -1,0 +1,72 @@
+* {
+  color: #eee;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cherry Cream Soda', cursive;
+}
+
+label {
+  cursor: pointer;
+}
+
+html {
+  background: #232927;
+  margin: 10px;
+}
+
+a:visited {
+  color: #99f;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  font-size: 0.7em;
+}
+
+#content {
+  width: 700px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+#editor {
+  position: absolute;
+  width: 900px;
+  height: 800px;
+  font-size: 12pt;
+}
+
+.ace_gutter * {
+  color: #333;
+}
+
+#editorFiller {
+  height: 800px;
+}
+
+.toolbar * {
+  padding:  3px;
+}
+
+#codeOutput {
+  width: 800px;
+  border: 1px #eee dashed;
+  font-family: monospace;
+  height: 400px;
+  background: #111;
+  padding: 7px;
+  overflow-y: scroll;
+}
+
+#outputContainer {
+  display: none;
+}
