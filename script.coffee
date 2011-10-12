@@ -38,7 +38,7 @@ $(() ->
   $("#generate").click(() ->
     fdata = _.flatten(data)
     all_mappings = []
-    for i in [1..2]
+    for i in [1..1]
       mappings = generate_mappings(fdata)
       while not valid(mappings, data) or not check_maps(all_mappings, mappings)
         mappings = generate_mappings(fdata)
