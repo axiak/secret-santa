@@ -28,12 +28,22 @@ check_maps = (all_mappings, current_mappings) ->
   is_valid
 
 $(() ->
+  emails =
+    Yalu: "yaluwu@gmail.com"
+    Mike: "mike@axiak.net"
+    Maureen: "maureen.ringrose@yahoo.com"
+    Scott: "N/A"
+    Tracy: "TAxiak@cantorcolburn.com"
+    Peter: "peter.a@aefcu.com"
+    Joseph: "jaxiak@gmail.com"
+
   data = [
     ['Yalu', 'Mike']
     ['Maureen', 'Scott']
     ['Peter', 'Tracy']
     ['Joseph']
   ]
+
   window.d = data
   $("#generate").click(() ->
     fdata = _.flatten(data)
@@ -54,7 +64,7 @@ $(() ->
     _.each from_list, (from) ->
       _.each all_mappings, (mapping) ->
         to = mapping[from]
-        body.append("<tr><td>" + from + "</td><td>" + to + "</td></tr>")
+        body.append("<tr><td>#{from} <tt>#{emails[from]}</tt></td><td>#{to}</td></tr>")
 
     $("#generate").hide()
 
