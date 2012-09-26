@@ -32,7 +32,7 @@ $(() ->
     Yalu: "yaluwu@gmail.com"
     Mike: "mike@axiak.net"
     Maureen: "maureen.ringrose@yahoo.com"
-    Scott: "N/A"
+    Scott: "smringrose@facebook.com"
     Tracy: "TAxiak@cantorcolburn.com"
     Peter: "peter.a@aefcu.com"
     Joseph: "jaxiak@gmail.com"
