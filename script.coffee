@@ -37,20 +37,21 @@ $(() ->
     Peter: "peter.a@aefcu.com"
     Joseph: "jaxiak@gmail.com"
 
-  data = [
+  COUPLES = [
     ['Yalu', 'Mike']
     ['Maureen', 'Scott']
     ['Peter', 'Tracy']
     ['Joseph']
   ]
+  
+  NUM_RECIPIENTS = 1
 
-  window.d = data
   $("#generate").click(() ->
-    fdata = _.flatten(data)
+    fdata = _.flatten(COUPLES)
     all_mappings = []
-    for i in [1..1]
+    for i in [1..NUM_RECIPIENTS]
       mappings = generate_mappings(fdata)
-      while not valid(mappings, data) or not check_maps(all_mappings, mappings)
+      while not valid(mappings, COUPLES) or not check_maps(all_mappings, mappings)
         mappings = generate_mappings(fdata)
       all_mappings.push(mappings)
 
