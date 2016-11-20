@@ -44,7 +44,7 @@ $(() ->
     ['Joseph']
   ]
   
-  NUM_RECIPIENTS = 2
+  NUM_RECIPIENTS = 1
 
   $("#generate").click(() ->
     fdata = _.flatten(COUPLES)
