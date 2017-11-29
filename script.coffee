@@ -36,12 +36,13 @@ $(() ->
     Tracy: "TAxiak@cantorcolburn.com"
     Peter: "peter.a@aefcu.com"
     Joseph: "jaxiak@gmail.com"
+    Sarah: "jaxiak@gmail.com"
 
   COUPLES = [
     ['Yalu', 'Mike']
     ['Maureen', 'Scott']
     ['Peter', 'Tracy']
-    ['Joseph']
+    ['Joseph', 'Sarah']
   ]
   
   NUM_RECIPIENTS = 1
