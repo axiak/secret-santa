@@ -36,7 +36,7 @@ $(() ->
     Tracy: "TAxiak@cantorcolburn.com"
     Peter: "peter.a@aefcu.com"
     Joseph: "jaxiak@gmail.com"
-    Sarah: "jaxiak@gmail.com"
+    Sarah: "sarah.galgano@gmail.com"
 
   COUPLES = [
     ['Yalu', 'Mike']
