@@ -34,7 +34,7 @@ $(() ->
     Maureen: "maureen.ringrose@yahoo.com"
     Scott: "smringrose@facebook.com"
     Tracy: "TAxiak@cantorcolburn.com"
-    Peter: "peter.a@aefcu.com"
+    Peter: "peter.axiak@gmail.com"
     Joseph: "jaxiak@gmail.com"
     Sarah: "sarah.galgano@gmail.com"
 
